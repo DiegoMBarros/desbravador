@@ -1,0 +1,28 @@
+{
+  "guest": {
+    "firstName": "Teste",
+    "lastName": "Automacao",
+    "email": "qa.automacao+desafio@example.com",
+    "phone": "48999999999",
+    "document": "12345678901"
+  },
+  "address": {
+    "zipCode": "88010000",
+    "streetNumber": "100",
+    "complement": "Apto 101"
+  },
+  "payment": {
+    "validCard": {
+      "number": "4000000000000044",
+      "name": "DESBRAVADOR SOFTWARE",
+      "expiry": "12/23",
+      "cvc": "123"
+    },
+    "invalidCard": {
+      "number": "4111111111111111",
+      "name": "DESBRAVADOR SOFTWARE",
+      "expiry": "12/23",
+      "cvc": "000"
+    }
+  }
+}
